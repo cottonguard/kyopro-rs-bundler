@@ -1,13 +1,17 @@
 # kyopro-rs-bundler
 
+```
+$ rs_bundler | rustfmt
+```
+
 from:
 ```rust
-// lib.rs
+// src/lib.rs
 mod a;
 ```
 
 ```rust
-// a.rs
+// src/a.rs
 fn f() {}
 ```
 
